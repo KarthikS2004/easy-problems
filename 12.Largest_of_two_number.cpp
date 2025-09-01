@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main(){ 
+int main(){
     int number1,number2;
-    cout << "Enter a number1 and number2:"<< endl;
+cout << "Enter a number1 and number2:"<< endl;
 	cin >> number1 >> number2;
 
 
@@ -11,7 +11,7 @@ int main(){
 	cout << number1 << " is Larger than " << number2;
 }
     else{
-	cout << number2 << " is Larger than : " << number1;	
+	cout << number2 << " is Larger than " << number1;	
   
 return 0;
 }
